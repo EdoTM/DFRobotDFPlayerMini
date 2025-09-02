@@ -141,6 +141,8 @@ class DFRobotDFPlayerMini {
   void outputDevice(uint8_t device);
   
   void sleep();
+
+  void normalMode();
   
   void reset();
   

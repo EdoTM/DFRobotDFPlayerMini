@@ -326,6 +326,10 @@ void DFRobotDFPlayerMini::sleep(){
   sendStack(0x0A);
 }
 
+void DFRobotDFPlayerMini::normalMode(){
+  sendStack(0x0B);
+}
+
 void DFRobotDFPlayerMini::reset(){
   sendStack(0x0C);
 }
